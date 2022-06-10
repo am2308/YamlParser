@@ -8,6 +8,14 @@ All respources like lambda, lambda permissions, s3 bucket and s3 event notificat
 
 main.zip file contains python code to parse yaml to json along with module dependencies.
 
+## Functionality
+
+Either you can do CICD setup to run terraform code to provision infrastructure or clone this repository on your local for testing point of view.
+
+Setup aws configure with your local or CICD to run terraform.
+
+Whenever .yaml file will be uploaded to s3, Lambda will get trigger and convert yaml to json and then upload the json file to s3 bucket.
+
 ## Requirements
 
 | Name | Version |
