@@ -1,4 +1,13 @@
 <!-- BEGIN_TF_DOCS -->
+
+## Description
+
+This IAC code will provision Lambda function to host python code to parse YAML file uploaded to S3 bucket and will upload converted json file to same s3 bucket.
+
+All respources like lambda, lambda permissions, s3 bucket and s3 event notification would be created using terraform.
+
+main.zip file contains python code to parse yaml to json along with module dependencies.
+
 ## Requirements
 
 | Name | Version |
